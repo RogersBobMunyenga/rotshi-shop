@@ -1,6 +1,16 @@
 .multicolumn .title {
   margin: 0;
+  border-bottom: 1px solid gray;
+ 
+  
 }
+ /* Added class to liquid(multicolumn.liquid ) insta-title to center title  */
+
+.insta-title{
+  position:relative;
+  left: 50rem; 
+}
+
 
 .multicolumn.no-heading .title {
   display: none;
