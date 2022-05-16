@@ -906,3 +906,49 @@ input.mobile-facets__checkbox {
 .product-count__text.loading + .loading-overlay__spinner {
   display: block;
 }
+
+
+/* ***********************************************************************************
+CODE CHANGES SIDEBAR COLLECTION
+
+*********************************************************************************** */
+
+/* remove the grid so filter is independent of sort by */
+.facets__heading {
+  display: block;
+}
+
+.facets__form{
+  display: block;
+}
+
+/* convert filter to column */
+.facets__wrapper {
+  flex-direction: column;
+  float: left;
+}
+
+/* reduce side of filters and put left */
+.collection-filters {
+  width: 20%;
+  float: left;
+}
+
+/* reduce size of collections grid and put right*/
+.collection {
+  width: 80%;
+  float: right;
+
+  }
+
+/* reduce size of sort by */
+.collection-filters .collection-filters__sort {
+  width: 16rem;
+}
+
+.facets__display{
+  width: auto;
+}
+
+                  
+                
